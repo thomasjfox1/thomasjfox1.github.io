@@ -1,7 +1,6 @@
-## Basic Website Template
+## thomasjfox1.github.io
 
-File structure created for ease of use when starting new static, front-end project.
-Perfect for a github.io portfolio project.
+Personal website.
 
 ### Getting Started
 
