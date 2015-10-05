@@ -2,6 +2,7 @@
 jQuery(function($) {
 
   clickFill('.planetary-container');
+  clickFill('.rocket-container');
 
   //click fill animation
   function clickFill(container){
@@ -32,6 +33,7 @@ jQuery(function($) {
     	//set the position and add class .animate
     	ink.css({top: y+'px', left: x+'px'}).addClass("animate");
     })
+    parent, ink, d, x, y = '';
   }
 
   //smooth scrolling
@@ -57,4 +59,11 @@ jQuery(function($) {
 			}
 		}
 	});
+
+  //rocket animation
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+        // apply effects and animations
+    }
+  });
 });

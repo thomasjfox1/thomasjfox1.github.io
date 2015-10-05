@@ -29,7 +29,6 @@ header{
   z-index: 9999;
   color: #fff;
   letter-spacing: 3px;
-  /*font-family: ''*/
   border-bottom: 3px solid #fff;
 }
 header ul {
@@ -96,7 +95,7 @@ svg.planetary{
 .about-items a.social-icon i{
   font-size: 120%;
   margin: 0 15px 0 15px;
-  padding: 15px;
+  padding: 12.5px;
   background-color: #292b3c;
   border-radius: 100%;
   color: #fff;
@@ -106,6 +105,24 @@ svg.planetary{
 .about-items a.social-icon i:hover, .about-items a.social-icon i:focus{
   background-color: #62657E;
   color: #fff;
+}
+
+/* ROCKET SECTION */
+.rocket-section{
+  height: 150px;
+  background-color: #d5d6c2;
+  overflow: hidden;
+}
+.rocket-container{
+  height: 100%;
+  width: 100%;
+  /*position relative;*/
+}
+
+/* PROJECTS SECTION */
+.projects-section{
+  height: 250px;
+  background-color: #fff;
 }
 
 /* CLICK FILL ANIMATION CSS */
