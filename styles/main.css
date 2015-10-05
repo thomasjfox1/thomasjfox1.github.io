@@ -2,6 +2,7 @@
 html, body {
   font-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   height: 100%;
   width: 100%;
 }
@@ -123,15 +124,17 @@ svg.planetary{
 
 /* PROJECTS SECTION */
 .projects-section{
-  height: 250px;
   background-color: #fff;
   color: #555;
+  padding: 75px 0 75px 0;
 }
 .projects-section-title{
-  width: 150px;
+  width: 175px;
   padding-bottom: 10px;
   margin-bottom: 25px;
   border-bottom: 3px solid #555;
+  letter-spacing: 3px;
+
 }
 .project{
   /*background-color: #ccc;*/
@@ -159,6 +162,14 @@ svg.planetary{
 }
 .second{
   background-color: #AAD6A6;
+}
+
+/* Footer */
+
+footer{
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background-color: #d3d6db;
 }
 
 /* CLICK FILL ANIMATION CSS */
