@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1120px" height="1120px" viewBox="0 0 1120 1120" enable-background="new 0 0 1120 1120" xml:space="preserve">
+<g id="Layer_1_1_">
+	<rect fill="#30323D" width="1120" height="1120"/>
+</g>
+<g id="Layer_2">
+	<circle id="sun" fill="#FFFFFF" cx="560" cy="560" r="58.653"/>
+	<circle id="mercury" fill="#FFFFFF" cx="658.844" cy="559.999" r="3.593"/>
+	<circle id="venus" fill="#FFFFFF" cx="699.525" cy="560" r="7.115"/>
+	<circle id="earth" fill="#FFFFFF" cx="745.218" cy="559.999" r="9.052"/>
+	<circle id="mars" fill="#FFFFFF" cx="789.126" cy="560" r="5.332"/>
+	<circle id="jupiter" fill="#FFFFFF" cx="847.691" cy="559.999" r="23.708"/>
+	<circle id="saturn" fill="#FFFFFF" cx="919.139" cy="560" r="18.215"/>
+	<circle id="uranus" fill="#FFFFFF" cx="979.29" cy="559.999" r="12.413"/>
+	<circle id="neptune" fill="#FFFFFF" cx="1035.238" cy="560" r="14.037"/>
+	<circle id="pluto" fill="#FFFFFF" cx="1081.783" cy="560" r="2.957"/>
+</g>
+</svg>
