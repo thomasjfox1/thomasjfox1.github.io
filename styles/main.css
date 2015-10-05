@@ -163,7 +163,12 @@ svg.planetary{
 .second{
   background-color: #AAD6A6;
 }
-
+.third{
+  background-color: #e8e0d1;
+}
+.third .project-img{
+  margin-bottom: -175px;
+}
 /* Footer */
 
 footer{
