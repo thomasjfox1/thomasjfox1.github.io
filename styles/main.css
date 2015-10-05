@@ -125,6 +125,40 @@ svg.planetary{
 .projects-section{
   height: 250px;
   background-color: #fff;
+  color: #555;
+}
+.projects-section-title{
+  width: 150px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #555;
+}
+.project{
+  /*background-color: #ccc;*/
+  margin: 25px 0 25px 0;
+  padding: 25px;
+  overflow: hidden;
+}
+.project-intro{
+  margin: 25px 0 25px 0;
+}
+.project h2, .project p{
+  margin-bottom: 15px;
+  color: #555;
+}
+.project-img{
+  width: 100%;
+  margin-top: 15px;
+  /*margin-bottom: -100px;*/
+}
+.first{
+  background-color: #d3d6db;
+}
+.first .project-img{
+  margin-bottom: -100px;
+}
+.second{
+  background-color: #AAD6A6;
 }
 
 /* CLICK FILL ANIMATION CSS */
