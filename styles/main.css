@@ -146,7 +146,7 @@ svg.planetary{
   margin: 25px 0 25px 0;
 }
 .project h2, .project p{
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   color: #555;
 }
 .project-img{
@@ -182,6 +182,7 @@ svg.planetary{
     -webkit-transition: 0.5 ease;
     white-space: nowrap;
     padding-bottom: 5px;
+    margin-bottom: 15px;
     /*height: 25px;*/
 }
 .first:hover .sliding-u-l-r {
