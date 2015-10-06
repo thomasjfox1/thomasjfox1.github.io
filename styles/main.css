@@ -139,8 +139,9 @@ svg.planetary{
 .project{
   /*background-color: #ccc;*/
   margin: 25px 0 25px 0;
-  padding: 25px;
+  /*padding: 25px;*/
   overflow: hidden;
+  position: relative;
 }
 .project-intro{
   margin: 25px 0 25px 0;
@@ -154,8 +155,13 @@ svg.planetary{
   margin-top: 15px;
   /*margin-bottom: -100px;*/
 }
+.animation-container{
+  padding: 25px;
+  /*overflow: hidden;*/
+}
 .first{
   background-color: #d3d6db;
+  overflow: hidden;
 }
 .first .project-img{
   margin-bottom: -100px;
