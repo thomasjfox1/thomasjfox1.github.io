@@ -134,7 +134,6 @@ svg.planetary{
   margin-bottom: 25px;
   border-bottom: 3px solid #555;
   letter-spacing: 3px;
-
 }
 .project{
   /*background-color: #ccc;*/
@@ -174,6 +173,28 @@ svg.planetary{
 }
 .third .project-img{
   margin-bottom: -175px;
+}
+.sliding-u-l-r {
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    width: 0px;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5 ease;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    /*height: 25px;*/
+}
+.first:hover .sliding-u-l-r {
+    border-bottom: 2px solid #555;
+    width: 125px;
+}
+.second:hover .sliding-u-l-r {
+  border-bottom: 2px solid #555;
+  width: 300px;
+}
+.third:hover .sliding-u-l-r {
+  border-bottom: 2px solid #555;
+  width: 225px;
 }
 /* Footer */
 

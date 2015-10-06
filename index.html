@@ -19,17 +19,20 @@
   <body id="top">
     <!-- Here is where the magic begins -->
     <header>
-      <ul>
-        <li><a href="#top"><strong>Thomas J. Fox</strong></a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>
+      <div class="menu wrapper">
+        <!-- <button class="menu-trigger"><i class="fa fa-bars"></i></button> -->
+        <ul class="menu">
+          <li><a href="#top"><strong>Thomas J. Fox</strong></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
     </header>
     <div class="top-box">
       <div class="planetary-container">
         <svg version="1.1" class="planetary" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         	 width="1120px" height="1120px" viewBox="0 0 1120 1120" enable-background="new 0 0 1120 1120" xml:space="preserve">
-          <circle id="sun" fill="#FFFFFF" cx="560" cy="560" r="58.653"/>
+          <circle id="sun" fill="#DDCA6B" cx="560" cy="560" r="58.653"/>
           <circle id="mercury" fill="#FFFFFF" cx="658.844" cy="560" r="3.593">
             <animateTransform attributeName="transform"
                                       attributeType="XML"
@@ -48,7 +51,7 @@
                                       dur="3.1s"
                                       repeatCount="indefinite"/>
           </circle>
-          <circle id="earth" fill="#FFFFFF" cx="745.218" cy="560" r="9.052">
+          <circle id="earth" fill="#4064BC" cx="745.218" cy="560" r="9.052">
             <animateTransform attributeName="transform"
                                       attributeType="XML"
                                       type="rotate"
@@ -147,7 +150,7 @@
           </div>
           <div class="project second">
             <div class="animation-container">
-              <h2>LuTech: Loyola Hacks</h2>
+              <h2 class="sliding-u-l-r">LuTech: Loyola Hacks</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <img class="project-img" src="media/images/loyola_hacks.png"/>
             </div>
@@ -156,7 +159,7 @@
         <div class="col-md-5">
           <div class="project first">
             <div class="animation-container">
-              <h2>Enigma</h2>
+              <h2 class="sliding-u-l-r">Enigma</h2>
               <p>For a history class that I took in Fall 2014 about 20th Century Europe, I designed a webapp to do the basic functions of an Enigma Machine.</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <img class="project-img" src="media/images/enigma_demo.png"/>
@@ -164,7 +167,7 @@
           </div>
           <div class="project third">
             <div class="animation-container">
-              <h2>Minimalist Maps</h2>
+              <h2 class="sliding-u-l-r">Minimalist Maps</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <img class="project-img" src="media/images/berlin_map.png"/>
             </div>
