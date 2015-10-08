@@ -188,10 +188,13 @@ svg.planetary{
   margin-bottom: -175px;
 }
 .fourth{
-  background-color: #d09183;
+  background-color: #4f5c71;
 }
 .fourth .project-img{
   margin-bottom: -225px;
+}
+.fourth a{
+  color: #DDCA6B;
 }
 .fourth h2, .fourth p{
   color: #fff;
