@@ -209,19 +209,19 @@ svg.planetary{
 }
 .first:hover .sliding-u-l-r {
   border-bottom: 2px solid #555;
-  width: 125px;
+  width: 35%;
 }
 .second:hover .sliding-u-l-r {
   border-bottom: 2px solid #555;
-  width: 340px;
+  width: 85%;
 }
 .third:hover .sliding-u-l-r {
   border-bottom: 2px solid #555;
-  width: 260px;
+  width: 70%;
 }
 .fourth:hover .sliding-u-l-r {
   border-bottom: 2px solid #fff;
-  width: 150px;
+  width: 40%;
 }
 /* Footer */
 
