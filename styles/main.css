@@ -187,6 +187,15 @@ svg.planetary{
 .third .project-img{
   margin-bottom: -175px;
 }
+.fourth{
+  background-color: #d09183;
+}
+.fourth .project-img{
+  margin-bottom: -225px;
+}
+.fourth h2, .fourth p{
+  color: #fff;
+}
 .sliding-u-l-r {
   text-decoration: none;
   border-bottom: 2px solid transparent;
@@ -209,6 +218,10 @@ svg.planetary{
 .third:hover .sliding-u-l-r {
   border-bottom: 2px solid #555;
   width: 260px;
+}
+.fourth:hover .sliding-u-l-r {
+  border-bottom: 2px solid #fff;
+  width: 150px;
 }
 /* Footer */
 
