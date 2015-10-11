@@ -40,6 +40,11 @@ h1, h2, h3 {
 	border-radius: 0 0 0 100px;
 	-moz-border-radius: 0 0 0 100px;
 	-webkit-border-radius: 0 0 0 100px;
+
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
 }
 .menu-opened{
 	height: 200px;
@@ -51,9 +56,17 @@ h1, h2, h3 {
 .menu-bars{
 	font-size: 135%;
 	color: #d3d6db;
+
+	transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
 }
 .menu-wrapper:hover{
-	background-color: #fff;
+	background-color: #DDCA6B;
+}
+.menu-wrapper:hover .menu-bars{
+	color: #fff;
 }
 .menu-items-container{
 
@@ -65,32 +78,6 @@ h1, h2, h3 {
 }
 .menu-items li a{
 	color: #fff;
-}
-
-header{
-  position: fixed;
-  top: 25px;
-  right: 25px;
-  z-index: 9999;
-  color: #fff;
-  letter-spacing: 3px;
-  border-bottom: 3px solid #fff;
-}
-header ul {
-  list-style: none;
-  text-align: right;
-  font-weight: 300;
-  font-size: 120%;
-  padding-left: 20px;
-}
-header ul li a{
-  text-decoration: none;
-  font-family: 'Quicksand';
-  color: #fff;
-}
-header ul li a:hover, header ul li a:focus{
-  text-decoration: underline;
-  color: #fff;
 }
 
 /* TOP SECTION */
