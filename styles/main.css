@@ -25,7 +25,48 @@ h1, h2, h3 {
   font-family: 'Quicksand';
 }
 
-/* HEADER */
+/* NAVBAR */
+.menu-wrapper{
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 9999;
+	text-align: right;
+	padding: 25px;
+
+	/*background: #d3d6db;*/
+	border-radius: 0 0 0 100px;
+	-moz-border-radius: 0 0 0 100px;
+	-webkit-border-radius: 0 0 0 100px;
+}
+.menu-opened{
+	height: 200px;
+	width: 200px;
+	border-radius: 0 0 0 200px;
+	-moz-border-radius: 0 0 0 200px;
+	-webkit-border-radius: 0 0 0 200px;
+}
+.menu-bars{
+	font-size: 135%;
+	color: #d3d6db;
+}
+.menu-wrapper:hover{
+	background-color: #fff;
+}
+.menu-items-container{
+
+}
+.menu-items{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu-items li a{
+	color: #fff;
+}
+
 header{
   position: fixed;
   top: 25px;

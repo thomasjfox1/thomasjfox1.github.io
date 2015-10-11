@@ -1,24 +1,7 @@
 // javascript wizardry
 jQuery(function($) {
 
-  //navbar coloring
-  $(document).ready(function(){
-   var scroll_start = 0;
-   var startchange = $('#about');
-   var offset = startchange.offset();
-    if (startchange.length){
-     $(document).scroll(function() {
-        scroll_start = $(this).scrollTop();
-        if(scroll_start > offset.top) {
-            $('header ul li a').css('color', '#292b3c');
-            $('header').css('border-bottom', '3px solid #292b3c');
-         } else {
-            $('header ul li a').css('color', '#fff');
-            $('header').css('border-bottom', '3px solid #fff');
-         }
-     });
-      }
-  });
+  //navbar 
 
   //smooth scrolling
   $('a[href*=#]:not([href=#])').click(function() {
@@ -78,7 +61,7 @@ jQuery(function($) {
 
     //set the position and add class .animate
     ink.css({top: y+'px', left: x+'px'}).addClass("animate");
-  })
+  });
   parent, ink, d, x, y = '';
 
   //click fill animation
@@ -108,7 +91,7 @@ jQuery(function($) {
 
   	//set the position and add class .animate
   	ink.css({top: y+'px', left: x+'px'}).addClass("animate");
-  })
+  });
   parent, ink, d, x, y = '';
 
 
