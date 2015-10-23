@@ -289,7 +289,9 @@ footer{
   padding: 25px 0 25px 0;
   background-color: #d3d6db;
 }
-
+footer p {
+  margin: 0;
+}
 /* ANIMATION KEYFRAMES */
 
 @keyframes fadein {
