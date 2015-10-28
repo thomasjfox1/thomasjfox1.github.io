@@ -120,9 +120,10 @@ header ul li a:hover{
 }
 .planetary-container{
   height: 100%;
-  max-height: 600px;
+  max-height: 650px;
   overflow: hidden;
   padding: 20px;
+  padding-bottom: 50px;
 }
 svg.planetary{
   width: 100%;
