@@ -344,6 +344,7 @@ footer p {
 
 .work-detail {
 	width: 94%;
+  max-width: 1200px;
 	margin: auto;
 }
 .work-detail-margin {
@@ -354,10 +355,10 @@ footer p {
 	width: 100%;
 }
 .detail-contentbox {
-	background-color: #f2f2f2;
+	/*background-color: #d3d6db;*/
 	padding: 3%;
 }
-.detail-content h4 {
+/*.detail-content h4 {
 	font-size: 27px;
 	line-height: 27px;
 	letter-spacing: 1px;
@@ -368,4 +369,4 @@ footer p {
 	font-size: 13px;
 	font-weight: 400;
 	margin-top: 7%;
-}
+}*/
