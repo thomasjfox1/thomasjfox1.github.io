@@ -290,6 +290,13 @@ svg.planetary{
   border-bottom: 2px solid #fff;
   width: 40%;
 }
+.title-link {
+  color: #555;
+}
+.title-link:hover {
+  text-decoration: none;
+  color: #555;
+}
 /* Footer */
 
 footer{
@@ -358,15 +365,3 @@ footer p {
 	/*background-color: #d3d6db;*/
 	padding: 3%;
 }
-/*.detail-content h4 {
-	font-size: 27px;
-	line-height: 27px;
-	letter-spacing: 1px;
-	font-weight: 300;
-}
-.detail-content p {
-	color: #6c7279;
-	font-size: 13px;
-	font-weight: 400;
-	margin-top: 7%;
-}*/
