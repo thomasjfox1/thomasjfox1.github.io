@@ -118,7 +118,7 @@ header.nav-dark ul li a {
 .top-box{
   width: 100%;
   height: 100%;
-  max-height: 650px;
+  max-height: 550px;
   background-color: #292b3c;
   /*background-color: #30323D;*/
   text-align: center;
@@ -127,7 +127,7 @@ header.nav-dark ul li a {
 }
 .planetary-container{
   height: 100%;
-  max-height: 650px;
+  max-height: 550px;
   overflow: hidden;
   padding: 20px;
   padding-bottom: 50px;
