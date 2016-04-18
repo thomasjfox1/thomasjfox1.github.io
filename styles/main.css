@@ -158,6 +158,16 @@ svg.planetary{
   width: 100%;
   max-width: 200px;
   border-radius: 100%;
+  text-align: center;
+}
+.profile-img.show-hover {
+  display: none;
+}
+.about-img:hover .profile-img.hidden-hover {
+  display: none;
+}
+.about-img:hover .profile-img.show-hover {
+  display: inline-block;
 }
 .about-text{
   text-align: left;
