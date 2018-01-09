@@ -1,232 +1,33 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html>
   <head>
     <title>Thomas J. Fox</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" content="Thomas J. Fox is a Software Engineer and Web Developer based in Chicago, IL and spends his free time exploring the confluence of technology, art, design and human rights."/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Thomas J. Fox is a Software Engineer currently based in Chicago, IL."/>
     <meta name="author" content="Thomas J. Fox"/>
-    <meta name="keywords" content="Thomas J. Fox Software Engineer Web Developer Chicago"/>
-    <!-- Load stylesheets, fonts and favicon here -->
-    <link rel="stylesheet" type="text/css" href="libs/bower_components/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../libs/bower_components/fancybox/source/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css"/>
-    <link rel="icon" href="media/favicon.ico" type="image/x-icon"/>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,600italic|Quicksand:400,300,700' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"/>
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-59716476-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
+    <meta name="keywords" content="Thomas J. Fox Software Development Engineer Web Developer Chicago"/>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700" rel="stylesheet">
   </head>
-  <body id="top">
-    <!-- Here is where the magic begins -->
-
-    <header>
-      <ul>
-        <li>Thomas J. Fox</li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="/maps">Maps</a></li>
-        <li><a href="media/thomasjfox_resume.pdf">Resume</a></li>
-      </ul>
-    </header>
-    <div class="top-box">
-      <div class="planetary-container">
-        <svg version="1.1" class="planetary" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 width="1120px" height="1120px" viewBox="0 0 1120 1120" enable-background="new 0 0 1120 1120" xml:space="preserve">
-          <circle id="sun" fill="#DDCA6B" cx="560" cy="560" r="58.653"/>
-          <circle id="mercury" fill="#FFFFFF" cx="658.844" cy="560" r="3.593">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="1.7s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="venus" fill="#FFFFFF" cx="699.525" cy="560" r="7.115">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="3.1s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="earth" fill="#4064BC" cx="745.218" cy="560" r="9.052">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="5s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="mars" fill="#FFFFFF" cx="789.126" cy="560" r="5.332">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="9.4s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="jupiter" fill="#FFFFFF" cx="847.691" cy="560" r="23.708">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="59.5s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="saturn" fill="#FFFFFF" cx="919.139" cy="560" r="18.215">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="148.5s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="uranus" fill="#FFFFFF" cx="979.29" cy="560" r="12.413">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="421.5s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="neptune" fill="#FFFFFF" cx="1035.238" cy="560" r="14.037">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="825s"
-                                      repeatCount="indefinite"/>
-          </circle>
-          <circle id="pluto" fill="#FFFFFF" cx="1081.783" cy="560" r="2.957">
-            <animateTransform attributeName="transform"
-                                      attributeType="XML"
-                                      type="rotate"
-                                      from="0 560 560"
-                                      to="360 560 560"
-                                      dur="1240s"
-                                      repeatCount="indefinite"/>
-          </circle>
-        </svg>
-      </div>
-    </div>
-    <div id="about" class="about-section">
-      <div class="container">
-        <div class="about-img col-md-3 col-md-offset-1 col-sm-3">
-          <img class="profile-img hidden-hover" src="media/images/profile.jpg" alt="Thomas J. Fox Profile Image" title="Thomas J. Fox"/>
-          <img class="profile-img show-hover" src="media/images/profile_2.jpg" alt="Thomas J. Fox Profile Image" title="Thomas J. Fox"/>
-        </div>
-        <div class="about-text col-md-7 col-sm-9">
-          <p><span>Hello! My name is Thomas.</span> I am a Software Engineer with a passion for design and open source technology based in Chicago, IL. I just graduated from Loyola University Chicago with a degree in Computer Science in May 2016! I am currently a Software Development Engineer at <a href="http://www.4cinsights.com" target="_blank">4C Insights</a>.</p>
-          <p>I spend my free time researching and exploring the confluence of technology, design and human rights. I also enjoy cartography, photography and hiking.</p>
-        </div>
-        <div class="about-items col-md-12">
-          <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/thomasjfox1"><i class="fa fa-linkedin"></i></a>
-          <a class="social-icon" target="_blank" href="https://github.com/thomasjfox1"><i class="fa fa-github"></i></a>
-          <a class="social-icon" target="_blank" href="https://twitter.com/thomasjfox1"><i class="fa fa-twitter"></i></a>
-          <a class="social-icon" target="_blank" href="https://www.instagram.com/thomasjfox1/"><i class="fa fa-instagram"></i></a>
-          <a class="social-icon" target="_blank" href="media/thomasjfox_resume.pdf"><i class="fa fa-file"></i></a>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="rocket-section">
-      <div class="rocket-container">
-        <div class="rocket">
-        </div>
-      </div>
-    </div> -->
-    <div id="projects" class="projects-section">
-      <div class="container">
-        <div class="col-md-5 col-md-offset-1">
-          <div class="projects-section-title">
-            <h1>Projects</h1>
-          </div>
-          <div class="project-intro">
-            <p>These are a selection of my recent projects. They are from a combination of classes, groups that I am involved in on campus, freelance work and just for fun. With all of my projects, I try to approach the challenge with the end-user at the forefront of my focus. Each project here represents a different area of interest to me, all united under design and code.</p>
-          </div>
-          <div class="project third">
-            <div class="animation-container">
-              <h2><a class="title-link" href="/maps">Minimalist Maps</a></h2>
-              <div class="sliding-u-l-r"></div>
-              <p>After being introduced to the facinating world of Geographic Information Systems as a web development intern at <a href="http://nbtsolutions.com/" target="_blank">NBT Solutions</a>, a custom GIS web development outfit, I decided to test the limits of maps. I wanted to explore how to meaningfully display only a small subset of potential data on a map, in a minimalist and beautiful way. In the process I created dozens of different posters featuring displays of road networks in well-known cities.</p>
-              <p>To create these maps, I used data from the awesome contributers over at <a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and the <a href="https://www.mapbox.com/tilemill/" target="_blank">TileMill</a> project created by the folks at Mapbox. Some additional post processing to the generated svg files was completed in Adobe Illustrator.</p>
-              <p>I also just recently designed an interactive map of DC displaying all of the trees along the streets <a href="maps/dc/">here</a>.</p>
-              <p><a href="/maps">See more maps!</a></p>
-              <a href="/maps"><img class="project-img" src="media/images/berlin_blue_map.png"/></a>
-            </div>
-          </div>
-          <div class="project second">
-            <div class="animation-container">
-              <h2>LuTech: Loyola Hacks</h2>
-              <div class="sliding-u-l-r"></div>
-              <p><a href="http://lutech.xyz/" target="_blank">LuTech</a> is a technology group at Loyola University Chicago that I co-founded as a way to create supplemental experiences for the Computer Science Department and anyone interested in technology and computer science. We decided to hold a series of hackathons called <a href="http://loyolahacks.com/sustainability" target="_blank">Loyola Hacks</a> with each event focusing on a different theme.</p>
-              <p>With this particular work I approached designing an informative poster for the event first and building a single-page website second. Using the poster design as a reference, I brought it to life in web form.</p>
-              <p><a href="https://github.com/loyolaLuTech/loyolalutech.github.io" target="_blank">Project on GitHub.</a></p>
-              <a href="http://loyolahacks.com/sustainability" target="_blank"><img class="project-img" src="media/images/loyola_hacks.png"/></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="project fourth">
-            <div class="animation-container">
-              <h2>Access Contemporary Music</h2>
-              <div class="sliding-u-l-r"></div>
-              <p>This is a full design and development project for the Access Contemporary Music organization based in Chicago, IL. We worked together to create a new design for their organization's website. They needed a responsive site that would put more emphasis on their Global Connections composer members. </p>
-              <p>The website is a custom Wordpress template built in PHP, Javascript, HTML and CSS.</p>
-              <!-- <p><a href="">The project</a></p> -->
-              <p><a href="http://www.acmusic.org/" target="_blank">Visit the live site.</a></p>
-              <a href="http://www.acmusic.org/" target="_blank"><img class="project-img" src="media/images/acmusic_demo.png"/></a>
-            </div>
-          </div>
-          <div class="project first">
-            <div class="animation-container">
-              <h2>Enigma</h2>
-              <div class="sliding-u-l-r"></div>
-              <p>For a history class that I took in Fall 2014 about 20th Century Europe while studying in Rome for the semester, I designed an Angular, Node.js web application to do the basic functions of an Enigma Machine.</p>
-              <p><a href="http://enigmamachine.herokuapp.com/" target="_blank">The project</a> needed to involve a multimedia research project regarding anything to do with Europe in the 20th Century. Lacking CS courses at Loyola's John Felice Rome Center, I chose to research the Enigma Machine and present a informative and interactive website about it as my project. I leveraged multiple NPM libraries as well as created an Express server and hosted it on Heroku.</p>
-              <p><a href="https://github.com/thomasjfox1/enigma" target="_blank">Project on GitHub.</a></p>
-              <a href="http://enigmamachine.herokuapp.com/" target="_blank"><img class="project-img" src="media/images/enigma_demo.png"/></a>
-            </div>
-          </div>
-        </div>
-      </div>
+  <body>
+    <div class="main-content">
+      <p class="bold">|| Thomas J. Fox</p>
+      <p>Hello! My name is Thomas. I am a human with a passion for design and open source technology currently
+        based in Chicago, IL. I graduated from Loyola University Chicago with a degree in Computer Science
+        in May 2016! I am currently a Software Development Engineer at <a class="bold" href="http://www.4cinsights.com" target="_blank">4C Insights</a>.</p>
+      <p>I spend my free time researching and exploring the confluence of technology, design and human rights. And possibly cryptocurrencies.
+        I love to cook/bake, travel and read (currently <a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target="_blank">
+        Sapiens: A Brief History of Humankind</a>). I also love enjoy <a href="https://www.instagram.com/thomasjfox_/" target="_blank">photography</a>,
+        <a href="cartography/">cartography</a>, running and hiking.</p>
+      <p>You can find me on <a href="https://www.github.com/thomasjfox1/" target="_blank">GitHub</a>,
+        <a href="https://www.twitter.com/thomasjfox_/" target="_blank">Twitter</a>, and
+      <a href="https://www.linkedin.com/in/thomasjfox1/" target="_blank">LinkedIn</a>.</p>
+      <p>Here is a <a href="media/resume.pdf" target="_blank">link to my résumé</a>.</p>
     </div>
     <footer>
-      <div class="container">
-        <div class="col-md-11 col-md-offset-1">
-          <p>© 2016 Thomas J. Fox | thomasjfox1@gmail.com</p>
-        </div>
-      </div>
+      <p class="no-margin">© 2018 Thomas J. Fox | thomasjfox1@gmail.com</p>
     </footer>
-
-    <!-- JS files here -->
-    <script type="text/javascript" src="libs/bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="libs/bower_components/modernizer/modernizr.js"></script>
-    <script type="text/javascript" src="../libs/bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="scripts/main.js"></script>
-    <!--  -->
   </body>
 </html>
