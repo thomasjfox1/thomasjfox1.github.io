@@ -83,7 +83,11 @@ footer {
 }
 
 @media (max-width: 720px) {
-  body {
+  .main-content {
     margin: 0 auto;
+  }
+
+  footer {
+    width: auto;
   }
 }
