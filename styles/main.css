@@ -61,6 +61,10 @@ a:hover {
   font-weight: 700;
 }
 
+.header {
+  font-size: 17px;
+}
+
 .map-img {
   width: 100%;
   margin-bottom: 10px;
