@@ -37,6 +37,19 @@ a:hover {
   margin: -3px;
 }
 
+.dark-body {
+  background-color: rgb(36, 41, 46);
+  color: #fff;
+}
+
+a.dark-link {
+  color: #fff;
+}
+
+a.dark-link:hover {
+  color: rgb(36, 41, 46);
+}
+
 .main-content {
   flex: 1 0 auto;
   max-width: 675px;
@@ -50,12 +63,20 @@ a:hover {
   border-bottom: none;
 }
 
+.header-link.dark {
+  color: #fff;
+}
+
 .header-link:hover {
   background-color: #fff;
   color: #000;
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.header-link.dark:hover {
+  color: rgb(36, 41, 46);
 }
 
 .bold {

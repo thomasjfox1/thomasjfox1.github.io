@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="html">
   <head>
     <title>Thomas J. Fox | Cartography</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,27 +19,41 @@
      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
      ga('create', 'UA-59716476-1', 'auto');
      ga('send', 'pageview');
+     function addClass(target, className) {
+       var els = document.getElementsByClassName(target);
+       for (var i = 0; i < els.length; i++) {
+         els[i].classList.add(className);
+       }
+     }
+     window.onload = function() {
+       var time = new Date();
+       if (time.getHours() > 19 || time.getHours < 6) {
+         addClass('html', 'dark-body');
+         addClass('link', 'dark-link');
+         addClass('header-link', 'dark');
+       }
+    };
    </script>
   </head>
   <body>
     <div class="main-content">
-      <p class="bold header">>> <a class="header-link" href="/">Thomas J. Fox</a> | Cartography</p>
+      <p class="bold header dark">>> <a class="header-link" href="/">Thomas J. Fox</a> | Cartography</p>
       <p class="bold">DC Map</p>
       <p>For this project, I wanted to tackle something concreted over a limited area. Washington, D.C. quickly appeared as the logical choice to use.
         They have an incredible wealth of open data available for public usage and quick download.</p>
       <p>Displayed in the map are natural areas, water, land usage (some), roads, rails, paths, buildings and street trees.</p>
-      <p>Data from <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and <a href="http://opendata.dc.gov/datasets/f6c3c04113944f23a7993f2e603abaf2_23" target="_blank">
-        DC Open Data</a>. Created using <a href="http://www.qgis.org/en/site/" target="_blank">QGIS</a> and <a href="https://www.mapbox.com/" target="_blank">Mapbox Studios</a>.</p>
-      <p><a href="https://api.mapbox.com/styles/v1/thomasjfox1/cin61teo7001bckktxk58irja.html?fresh=true&title=true&access_token=pk.eyJ1IjoidGhvbWFzamZveDEiLCJhIjoiYTU2MDA5MjUwNWRiYmRjNGQwY2Y1MzliYjcwNDI1YjQifQ.tXE2iD2Y-oXjV-H-s0LqHA#14.2/38.907790/-77.040720/0" target="_blank">
+      <p>Data from <a class="link" href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and <a class="link" href="http://opendata.dc.gov/datasets/f6c3c04113944f23a7993f2e603abaf2_23" target="_blank">
+        DC Open Data</a>. Created using <a class="link" href="http://www.qgis.org/en/site/" target="_blank">QGIS</a> and <a class="link" href="https://www.mapbox.com/" target="_blank">Mapbox Studios</a>.</p>
+      <p><a class="link" href="https://api.mapbox.com/styles/v1/thomasjfox1/cin61teo7001bckktxk58irja.html?fresh=true&title=true&access_token=pk.eyJ1IjoidGhvbWFzamZveDEiLCJhIjoiYTU2MDA5MjUwNWRiYmRjNGQwY2Y1MzliYjcwNDI1YjQifQ.tXE2iD2Y-oXjV-H-s0LqHA#14.2/38.907790/-77.040720/0" target="_blank">
         Click here to see the map.</a></p>
       <img class="map-img" src="../media/images/dc.png" alt="" />
       <div class="spacer"></div>
       <p class="bold">Minimalist Maps</p>
-      <p>After being introduced to the facinating world of Geographic Information Systems as a web development intern at <a href="http://nbtsolutions.com/" target="_blank">
+      <p>After being introduced to the facinating world of Geographic Information Systems as a web development intern at <a class="link" href="http://nbtsolutions.com/" target="_blank">
         NBT Solutions</a>, a custom GIS web development outfit, I decided to test the limits of maps. I wanted to explore how to meaningfully display only a small subset of
         potential data on a map, in a minimalist and beautiful way. In the process I created dozens of different posters featuring displays of road networks in well-known cities.</p>
-      <p>To create these maps, I used data from the awesome contributers over at <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and the
-        <a href="https://www.mapbox.com/tilemill/" target="_blank">TileMill</a> project created by the folks at Mapbox. Some additional post processing to the generated svg files
+      <p>To create these maps, I used data from the awesome contributers over at <a class="link" href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and the
+        <a class="link" href="https://www.mapbox.com/tilemill/" target="_blank">TileMill</a> project created by the folks at Mapbox. Some additional post processing to the generated svg files
         was completed in Adobe Illustrator.</p>
       <img class="map-img" src="../media/images/usa_map.png" alt="" />
       <img class="map-img" src="../media/images/berlin_map.png" alt="" />
