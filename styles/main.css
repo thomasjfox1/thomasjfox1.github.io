@@ -1,6 +1,6 @@
 /* GLOBAL ITEMS */
 html, body {
-  font: 14px Menlo, 'Anonymous Pro', monospace;
+  font: 14px Helvetica Neue, Helvetica;
 }
 
 html {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .dark-body {
-  background-color: rgb(36, 41, 46);
+  background-color: rgb(5, 9, 32);
   color: #fff;
 }
 
