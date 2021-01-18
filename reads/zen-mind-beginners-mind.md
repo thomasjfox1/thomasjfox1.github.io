@@ -1,5 +1,6 @@
 ---
 title: "Zen Mind, Beginner's Mind"
+author: 'Shunryu Suzuki'
 date: '2021-01-01'
 rating: 5
 ---

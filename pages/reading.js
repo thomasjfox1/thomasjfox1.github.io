@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import BookList from '../components/BookList';
 
 import { getSortedPostsData } from '../utils/mdPosts';
 
@@ -13,20 +13,6 @@ export async function getStaticProps() {
 
 export default function Reads ({ allPostsData }) {
   return (
-    <>
-      <ul>
-        {allPostsData.map(({ id, date, title, rating }) => (
-          <li key={id}>
-            {title}
-            <br />
-            <Link href={`/reading/${id}`}>{id}</Link>
-            <br />
-            {date}
-            <br />
-            {rating}
-          </li>
-        ))}
-      </ul>
-    </>
+    <BookList books={allPostsData}/>
   );
 };

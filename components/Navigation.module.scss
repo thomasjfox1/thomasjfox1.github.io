@@ -5,4 +5,12 @@
 
 .nav-item {
   padding: 5px 0px;
+  height: 28px;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+.active-link {
+  font-weight: bold;
 }

@@ -6,7 +6,7 @@ const Photography = () => {
       <Head>
         <title>photography</title>
       </Head>
-      <h1>photography</h1>
+      <h3>photography</h3>
     </>
   );
 }

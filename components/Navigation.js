@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import ActiveLink from './ActiveLink';
+
 import styles from './Navigation.module.scss';
 
 const navItems = [
@@ -28,11 +30,14 @@ const Navigation = () => {
           return (
             <li 
               className={styles['nav-item']}
-              id={item.link}
+              key={item.link}
             >
-              <Link href={item.link}>
+              <ActiveLink 
+                activeClassName={styles['active-link']}
+                href={item.link}
+              >
                 <a>{item.label}</a>
-              </Link>
+              </ActiveLink>
             </li>
           );
         })}
