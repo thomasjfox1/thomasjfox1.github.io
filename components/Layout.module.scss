@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 8fr;
+}
+
+.nav-container {
+  margin-top: 30px;
+}
+
+.content-container { 
+  margin-top: 50px;
+}
