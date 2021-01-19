@@ -1,0 +1,29 @@
+.container {
+  max-width: 850px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+}
+
+.nav-container {
+  margin-top: 30px;
+}
+
+.content-container { 
+  margin-top: 50px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: inline;
+    margin-top: 0px;
+  }
+
+  .nav-container {
+    margin-top: 0;
+  }
+
+  .content-container {
+    margin-top: 20px;
+  }
+}
