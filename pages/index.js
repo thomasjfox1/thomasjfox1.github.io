@@ -20,7 +20,7 @@ export default function Home() {
         />
         <br/>
         <br/>
-        <p><b>Hello! My name is Thomas.</b> I am a software engineer, manager, marathoner, and avid reader with deep interest in climate, technology, and complex systems 
+        <p><b>Hello! My name is Thomas.</b> I am a software engineer, marathoner, and avid reader with deep interest in climate, technology, and complex systems 
           based in Chicago, IL. I am currently a <b>Senior Engineering Manager</b> at <a className="bold link" href="http://www.mediaocean.com" target="_blank">Mediaocean</a>.
           I have a <b>B.S. in Computer Science</b> from Loyola University Chicago.</p>
         <p>I spend much of my free time researching and exploring the confluence of technology, design, risk, and climate change.
