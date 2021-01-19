@@ -1,5 +1,6 @@
 .container {
-  max-width: 850px;
+  width: 100%;
+  max-width: 900px;
   margin: auto;
   display: grid;
   grid-template-columns: 3fr 10fr;
@@ -13,7 +14,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .container {
     display: inline;
     margin-top: 0px;

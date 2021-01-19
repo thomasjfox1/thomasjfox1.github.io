@@ -1,6 +1,6 @@
 /* GLOBAL ITEMS */
 html, body {
-  font: 14px Helvetica Neue, Helvetica;
+  font: 15px Helvetica Neue, Helvetica;
 }
 
 html {
@@ -20,7 +20,7 @@ p {
   line-height: 22px;
   margin-bottom: 22px;
   margin-top: 0px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 a {
