@@ -6,9 +6,27 @@
 .list-item {
   display: grid;
   grid-template-columns: 3fr 2fr 1fr 1fr;
-  padding: 10px 0px;
+  padding: 5px 0px;
 
   &:first-child {
     padding-top: 0px;
   }
+}
+
+.col-item {
+  // height: 17px;
+  margin: 0 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+  .list-item {
+    grid-template-columns: 4fr 2fr 2fr;
+  }
+
+  .col-hide-mobile {
+    display: none;
+  }  
 }

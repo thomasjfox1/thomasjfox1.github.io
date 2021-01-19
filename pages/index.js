@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Image from 'next/image';
+
 
 export default function Home() {
   return (
@@ -9,6 +11,14 @@ export default function Home() {
       </Head>
 
       <main>
+        <Image
+          src={'/portrait.jpg'}
+          width={1200}
+          height={750}
+          layout='intrinsic'
+        />
+        <br/>
+        <br/>
         <p><b>Hello! My name is Thomas.</b> I am a software engineer, manager, marathoner, and avid reader with deep interest in climate, technology, and complex systems 
           based in Chicago, IL. I am currently a <b>Senior Engineering Manager</b> at <a className="bold link" href="http://www.mediaocean.com" target="_blank">Mediaocean</a>.
           I have a <b>B.S. in Computer Science</b> from Loyola University Chicago.</p>

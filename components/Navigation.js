@@ -23,7 +23,7 @@ const Navigation = () => {
   return (
     <nav>
       <Link href='/'>
-        <h2>Thomas J. Fox</h2>
+        <h2 className={styles['title']}>Thomas J. Fox</h2>
       </Link>
       <ul className={styles['nav-list']}>
         {navItems.map(item => {

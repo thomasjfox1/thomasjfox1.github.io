@@ -1,9 +1,8 @@
 .container {
-  width: 100%;
   max-width: 850px;
   margin: auto;
   display: grid;
-  grid-template-columns: 3fr 8fr;
+  grid-template-columns: 3fr 10fr;
 }
 
 .nav-container {
@@ -12,4 +11,19 @@
 
 .content-container { 
   margin-top: 50px;
+}
+
+@media (max-width: 850px) {
+  .container {
+    display: inline;
+    margin-top: 0px;
+  }
+
+  .nav-container {
+    margin-top: 0;
+  }
+
+  .content-container {
+    margin-top: 20px;
+  }
 }

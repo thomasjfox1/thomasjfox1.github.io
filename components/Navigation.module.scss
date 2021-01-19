@@ -6,11 +6,32 @@
 .nav-item {
   padding: 5px 0px;
   height: 28px;
-  &:hover {
-    font-weight: bold;
-  }
 }
 
 .active-link {
   font-weight: bold;
+}
+
+@media (max-width: 850px) {
+  .title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .nav-list {
+    display: inline-block;
+  }
+
+  .nav-item {
+    display: inline;
+    padding: 10px;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
 }
