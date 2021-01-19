@@ -8,4 +8,3 @@ link: 'https://bookshop.org/books/thinking-in-systems-international-bestseller/9
 rating: 5
 publish: false
 ---
-

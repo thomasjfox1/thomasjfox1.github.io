@@ -26,7 +26,7 @@ export default function Home() {
           I love to <a className="link" href="https://www.strava.com/athletes/16679686" target="_blank">run / bike</a>, cook / bake, travel, and read (currently: <a className="link" href="https://bookshop.org/books/the-black-swan-second-edition-the-impact-of-the-highly-improbable-with-a-new-section-on-robustness-and-fragility" target="_blank">
           <i>The Black Swan: Second Edition: The Impact of the Highly Improbable</i></a> and 
           Issac Asimov's <a className="link" href="https://bookshop.org/books/foundation-9780808520788/9780553293357" target="_blank"><i>Foundation</i></a>). 
-          I also enjoy <a className="link" href="https://www.instagram.com/thomasjfox_/" target="_blank">photography</a>, <a className="link" href="cartography/">cartography</a>, and hiking.</p>
+          I also enjoy <a className="link" href="https://www.instagram.com/thomasjfox_/" target="_blank">photography</a> and hiking.</p>
         <p>You can find me on <a className="bold link" href="https://www.github.com/thomasjfox1/" target="_blank">GitHub</a>, <a className="link" href="https://www.twitter.com/thomasjfox_/" target="_blank">Twitter</a>, and <a className="link" href="https://www.linkedin.com/in/thomasjfox1/" target="_blank">LinkedIn</a>.</p>
         <p>Here is a <a className="bold link" href="resume.pdf" target="_blank">link to my resume</a>.</p>
       </main>

@@ -13,10 +13,10 @@ const navItems = [
     label: 'Reading',
     link: '/reading',
   },
-  {
-    label: 'Photography',
-    link: '/photography',
-  },
+  // {
+  //   label: 'Photography',
+  //   link: '/photography',
+  // },
 ];
 
 const Navigation = () => {
