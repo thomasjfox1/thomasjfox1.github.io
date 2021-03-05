@@ -21,7 +21,7 @@ export default function Home() {
         <br/>
         <br/>
         <p><b>Hello! My name is Thomas.</b> I am a software engineer, marathoner, and avid reader with deep interest in climate, technology, and complex systems 
-          based in Chicago, IL. I am currently a <b>Senior Engineering Manager</b> at <a className="bold link" href="http://www.mediaocean.com" target="_blank">Mediaocean</a>.
+          based in Chicago, IL. I am currently a <b>Director of Software Engineering</b> at <a className="bold link" href="http://www.mediaocean.com" target="_blank">Mediaocean</a>.
           I have a <b>B.S. in Computer Science</b> from Loyola University Chicago.</p>
         <p>I spend much of my free time researching and exploring the confluence of technology, design, risk, and climate change.
           I love to <a className="link" href="https://www.strava.com/athletes/16679686" target="_blank">run / bike</a>, cook / bake, travel, and <Link href="/reading">read</Link>. 
